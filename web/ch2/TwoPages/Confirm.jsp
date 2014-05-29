@@ -19,10 +19,10 @@
             <p>
                 If there is an error, please select <i>Edit</i>.
                 <br>
+                <input type="hidden" name="hobby"
+                       value="${param.hobby}">
                 <input type="submit" name="editButton"
                        value="Edit">
-        </form>form
-
-
+        </form>
     </body>
 </html>
