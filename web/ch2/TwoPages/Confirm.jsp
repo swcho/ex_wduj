@@ -24,5 +24,9 @@
                 <input type="submit" name="editButton"
                        value="Edit">
         </form>
+        <form action="Process.jsp">
+            <input type="hidden" name="hobby" value="${param.hobby}">
+            <input type="submit" name="processButton" value="Process">
+        </form>
     </body>
 </html>
