@@ -4,6 +4,10 @@
         <servlet-name>ch2.WithServlet.Controller</servlet-name>
         <servlet-class>ch2.WithServlet.Controller</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ReorganisedController</servlet-name>
+        <servlet-class>ch3.reorganised.Controller</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ch2.WithServlet.Controller</servlet-name>
         <url-pattern>/ch2/WithServlet/Controller</url-pattern>
@@ -15,6 +19,18 @@
     <servlet-mapping>
         <servlet-name>ch3.dataBean.Controller</servlet-name>
         <url-pattern>/ch3/dataBean/Controller</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>Controller</servlet-name>
+        <servlet-class>ch3.defaultValidate.Controller</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Controller</servlet-name>
+        <url-pattern>/ch3/defaultValidate/Controller</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReorganisedController</servlet-name>
+        <url-pattern>/ch3/reorganised/Controller</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
