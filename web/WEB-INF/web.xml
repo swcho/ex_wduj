@@ -8,6 +8,14 @@
         <servlet-name>ch2.WithServlet.Controller</servlet-name>
         <url-pattern>/ch2/WithServlet/Controller</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>ch3.dataBean.Controller</servlet-name>
+        <servlet-class>ch3.dataBean.Controller</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ch3.dataBean.Controller</servlet-name>
+        <url-pattern>/ch3/dataBean/Controller</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
